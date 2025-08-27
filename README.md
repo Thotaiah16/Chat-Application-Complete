@@ -1,104 +1,46 @@
-# DoubleTick Chat 🚀
+# Getting Started with Create React App
 
-> A modern, real-time chat application inspired by WhatsApp, built with a powerful NestJS backend and a dynamic React frontend.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a full-featured chat service that demonstrates a modern web architecture using WebSockets for instant communication.
-It features a clean, responsive interface and a robust backend capable of handling multiple users, real-time events, and different message types.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-✨ Features
+### `npm start`
 
-**Real-Time Messaging**: Instant two-way communication powered by **Socket.IO**.
-**User Authentication**: Simple and secure user login to join the chat.Online User List: See a list of all currently active users in the chat room.Typing Indicators**: Know when another user is typing a message in real-time.
-* **Voice-to-Text Messages**: Use your microphone to send messages, powered by the browser's Web Speech API.
-* **System Messages**: Automated messages for user join/leave events to keep everyone notified.
-* **Modern UI/UX**: A clean and responsive user interface designed with **Material-UI (MUI)**.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
- 🛠️ Technology Stack
+### `npm test`
 
-This project is built with a modern, type-safe stack to ensure scalability and maintainability.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
- Backend (NestJS)
+### `npm run build`
 
-| Technology             | Description                                                                          |
-| :--------------------- | :----------------------------------------------------------------------------------- |
-| **NestJS** | A progressive Node.js framework for building efficient and scalable server-side apps. |
-| **TypeScript** | Superset of JavaScript that adds static types for more robust code.                  |
-| **Socket.IO** | Enables real-time, bidirectional, and event-based communication.                     |
-| **WebSocket Gateway** | The core NestJS module for managing WebSocket connections, events, and messages.     |
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
- Frontend (React)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-| Technology         | Description                                                                              |
-| :----------------- | :--------------------------------------------------------------------------------------- |
-| **React** | A popular JavaScript library for building user interfaces.                               |
-| **TypeScript** | Provides type safety for robust and scalable frontend code.                              |
-| **Material-UI (MUI)** | A comprehensive library of UI tools and components for a polished design.                |
-| **Socket.IO Client**| The client-side library to connect to the WebSocket server and handle real-time events. |
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
- 🚀 Getting Started
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-To get a local copy up and running, follow these simple steps.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Prerequisites
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* Node.js (v16 or later recommended)
-* npm (or yarn)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### ### Installation & Setup
+## Learn More
 
-#### ### 1. Backend Server (NestJS)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-First, set up the server which will handle all the real-time communication.
-
-```bash
-# 1. Navigate to the backend project folder
-cd path/to/your/backend-folder
-
-# 2. Install NPM packages
-npm install
-
-# 3. Start the development server
-npm run start:dev
-```
-
-* The backend server will be running on `http://localhost:3001`.
-* For testing, the required password is hardcoded as `mypassword` in `src/chat.gateway.ts`.
-
-#### ### 2. Frontend Application (React)
-
-Next, set up the client-side application.
-
-```bash
-# 1. Navigate to the frontend project folder
-cd path/to/your/frontend-folder
-
-# 2. Install NPM packages
-npm install
-
-# 3. Start the development server
-npm start
-```
-
-* The React application will automatically open and run on `http://localhost:3000`.
-* You can now open multiple browser tabs to simulate a conversation between different users.
-
----
-
-## ## 💡 Future Enhancements
-
-This project has a solid foundation that can be extended with more advanced features:
-
-* **Database Integration**: Integrate MongoDB or PostgreSQL to persist users and chat history.
-* **Private Messaging**: Implement 1-on-1 private chats between users.
-* **Chat Rooms**: Allow users to create and join different chat rooms based on topics.
-* **"Double Tick" Read Receipts**: Add functionality to show when a message has been delivered and read.
-* **File Sharing**: Enable users to share images, videos, and other files.
-* **JWT Authentication**: Replace the simple password system with a secure, token-based authentication flow.
-  
-                                                                                        THANK YOU
+To learn React, check out the [React documentation](https://reactjs.org/).
